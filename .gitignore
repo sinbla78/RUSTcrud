@@ -1,0 +1,93 @@
+# Rust 관련 파일들
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# IDE 및 에디터 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS 시스템 파일들
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows 시스템 파일들
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux 시스템 파일들
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 로그 파일들
+*.log
+logs/
+log/
+
+# 환경 변수 파일들
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 백업 파일들
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# 테스트 결과 파일들
+/coverage/
+*.profraw
+
+# 문서 생성 파일들
+/doc/
+/docs/book/
+
+# 개발 도구 파일들
+.cargo/
+.rustc_info.json
+
+# 프로젝트별 임시 파일들
+*.orig
+*.rej
+.#*
+\#*\#
+
+# 데이터베이스 파일들 (나중에 DB 사용할 때)
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker 관련 (나중에 Docker 사용할 때)
+docker-compose.override.yml
