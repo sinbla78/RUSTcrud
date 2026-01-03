@@ -1,4 +1,4 @@
-# Rust Todo API 서비스
+# Rust Todo 서비스
 
 Rust와 Warp 프레임워크로 구축한 간단하고 빠른 Todo 관리 REST API 서버입니다.
 
