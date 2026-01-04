@@ -1,6 +1,6 @@
 pub mod routes;
 
-use crate::error::AppError;
+use crate::common::error::AppError;
 use crate::models::{CreateTodoRequest, Todo, TodoResponse, UpdateTodoRequest};
 use crate::db::Store;
 use std::convert::Infallible;

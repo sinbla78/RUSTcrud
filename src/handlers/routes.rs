@@ -1,4 +1,4 @@
-use crate::error::handle_rejection;
+use crate::common::error::handle_rejection;
 use crate::handlers;
 use crate::db::Store;
 use warp::Filter;

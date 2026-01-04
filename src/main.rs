@@ -1,4 +1,4 @@
-use todo_service::config::Config;
+use todo_service::common::config::Config;
 use todo_service::db::create_store;
 use todo_service::handlers::routes::create_routes;
 use std::net::SocketAddr;
