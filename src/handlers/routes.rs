@@ -1,6 +1,6 @@
 use crate::error::handle_rejection;
 use crate::handlers;
-use crate::store::Store;
+use crate::db::Store;
 use warp::Filter;
 
 pub fn create_routes<S: Store + 'static>(

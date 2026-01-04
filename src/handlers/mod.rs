@@ -1,6 +1,8 @@
+pub mod routes;
+
 use crate::error::AppError;
 use crate::models::{CreateTodoRequest, Todo, TodoResponse, UpdateTodoRequest};
-use crate::store::Store;
+use crate::db::Store;
 use std::convert::Infallible;
 use warp::{http::StatusCode, Reply};
 use tracing::{info, warn};

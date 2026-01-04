@@ -99,3 +99,7 @@ impl Store for InMemoryStore {
         todos.len()
     }
 }
+
+pub fn create_store(_database_url: String) -> impl Store {
+    InMemoryStore::new()
+}
