@@ -1,5 +1,5 @@
-use todo_service::models::{CreateTodoRequest, Todo};
-use todo_service::store::{InMemoryStore, Store};
+use todo_service::app::db::{InMemoryStore, Store};
+use todo_service::app::models::{CreateTodoRequest, Todo};
 
 #[tokio::test]
 async fn test_create_and_get_todo() {

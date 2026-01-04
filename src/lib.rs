@@ -1,4 +1,1 @@
-pub mod models;
-pub mod handlers;
-pub mod db;
-pub mod common;
+pub mod app;

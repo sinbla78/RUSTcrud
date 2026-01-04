@@ -1,6 +1,6 @@
-use todo_service::common::config::Config;
-use todo_service::db::create_store;
-use todo_service::handlers::routes::create_routes;
+use todo_service::app::common::config::Config;
+use todo_service::app::db::create_store;
+use todo_service::app::handlers::routes::create_routes;
 use std::net::SocketAddr;
 use tracing::info;
 use tracing_subscriber::FmtSubscriber;
